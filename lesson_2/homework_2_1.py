@@ -15,8 +15,8 @@ result_2 = None
 # five characters, join them together (without a space) and save it to result_3 variable in upper case. If the length
 # of the first name is five or more characters, save their first name in lower case in result_3 variable.
 
-first_name = None
-last_name = None
+first_name = 'Gary'
+last_name = 'Walker'
 result_3 = None
 
 
@@ -33,7 +33,7 @@ result_4 = None
 # if you are 16, save the message “You can buy a lottery ticket” in result_5,
 # if you are under 16, save the message “You can go Trick-or-Treating” in result_5 variable.
 
-age = None
+age = 33
 result_5 = None
 
 
