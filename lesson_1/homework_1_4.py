@@ -25,5 +25,5 @@ result_ca_capital = ca_capital.title()
 # Enter the name of our planet. Change the case to upper case. Save the result in
 # result_planet variable
 
-planet = 'earth'
+planet = 'Earth'
 result_planet = planet.upper()
