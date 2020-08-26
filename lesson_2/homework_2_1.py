@@ -3,7 +3,12 @@
 
 first_number = 20
 second_number = 15
-result_1 = None
+
+if first_number > second_number:
+    result_1 = first_number
+else:
+    result_1 = second_number
+
 
 # Enter a random number in number_1 variable. If this number is 20 or
 # higher save “Too high” text to result_2, otherwise save “Thank you”.
@@ -11,7 +16,7 @@ number_1 = 10
 if number_1 >= 20:
     result_2 = 'Too high'
 else:
-    result_2 = 'thank you'
+    result_2 = 'Thank you'
 
 
 # Enter your first name and last name in first_name and last_name variables. If the length of your first name is under
@@ -21,10 +26,10 @@ else:
 first_name = 'Gary'
 last_name = 'Walker'
 
-if len(first_name) < 5:
-    result_3 = first_name.upper() + last_name.upper()
+if len(first_name) < 6:
+    result_3 = f'{first_name}{last_name}'.upper()
 else:
-    result_3 = first_name.lower()
+    result_3 = f'{first_name.lower()} {len(last_name)}'
 
 # Enter a number between 10 and 20 (inclusive) and save number to number_2 variable
 # If they enter a number within this range, save a message “Thank you” to result_4, otherwise a

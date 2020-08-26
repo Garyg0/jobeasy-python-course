@@ -3,8 +3,9 @@
 # Ex. 1
 # Enter your name, save it in name variable and save in result_1 variable your name repeated 3 times (use loops)
 
-name_1 = None
-result_1 = None
+name_1 = 'Gary Walker'
+result_1 = name_1 * 3
+
 
 # TODO: Here is your code
 
