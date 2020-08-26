@@ -10,7 +10,7 @@ char_1 = 'a'
 index = 0
 count = 0
 while index < len(string_1):
-    if string_1[index] == char_1
+    if string_1[index] == char_1:
         count += 1
     index += 1
 
