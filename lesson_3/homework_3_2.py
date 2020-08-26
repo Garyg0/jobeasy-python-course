@@ -5,8 +5,17 @@
 # Save result to result_1 variable
 
 string_1 = 'My name is Gary Walker'
+
 char_1 = 'a'
-result_1 = string_1.count(char_1)
+index = 0
+count = 0
+while index < len(string_1):
+    if string_1[index] == char_1
+        count += 1
+    index += 1
+
+result_1 = count
+
 
 
 
@@ -14,12 +23,30 @@ result_1 = string_1.count(char_1)
 # Enter a random number and save it in variable number_1. Then create code to multiply all the digits together
 # and save result in the result_2 variable.
 
-number_1 = None
-result_2 = None
+number_1 = 1264234
+number_to_string = str(number_1)
+index = 0
+mult = 1
+
+while index < len(number_to_string):
+    mult *= int(number_to_string[index])
+    index +=1
+
+result_2 = mult
 
 
 # Enter a random number and save it in variable number_2. Then create code which will return
 # a number with digits of number_1 in reverse order. Save it in result_3 variable
 
-number_2 = None
-result_3 = None
+number_2 = 7131752354
+number_to_string_2 = str(number_2)
+result_3 = ''
+
+index = len(number_to_string_2) - 1
+
+while index >= 0:
+    result_3 += number_to_string_2[index]
+    index -= 1
+
+result_3 = int(result_3)
+
