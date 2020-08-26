@@ -7,8 +7,9 @@
 string_1 = 'My name is Gary Walker'
 
 char_1 = 'a'
-index = 0
 count = 0
+
+index = 0
 while index < len(string_1):
     if string_1[index] == char_1:
         count += 1
@@ -25,9 +26,9 @@ result_1 = count
 
 number_1 = 1264234
 number_to_string = str(number_1)
-index = 0
 mult = 1
 
+index = 0
 while index < len(number_to_string):
     mult *= int(number_to_string[index])
     index +=1

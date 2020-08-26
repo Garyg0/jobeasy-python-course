@@ -4,28 +4,42 @@
 # Write a function, which will calculate the difference of these two numbers
 
 def difference(num_1, num_2):
-    pass
+    return num_1 - num_2
+
+
+print(difference(10, 5))
 
 
 # Division
 # Write a function, which will divide these two numbers
 
 def division(num_1, num_2):
-    pass
+    return num_1 / num_2
+
+
+print(division(100, 5))
 
 
 # Function gets random number. If this number is more than ten, return the difference between 100 and this number,
 # otherwise return this number multiplied by 10
 
 def function_1(number):
-    pass
+    if number > 10:
+        return 100 - number
+    else:
+        return number * 10
+
+
+print(function_1(5))
 
 
 # Your function temerature_convertor gets the temperature in Fahrenheit, convert it to Celsius and return.
 # Formula (32°F − 32) × 5/9 = 0°C
 
 def temerature_convertor(fahrenheit_degree):
-    pass
+    return (fahrenheit_degree - 32) * 5 / 9
+
+print(temerature_convertor(55))
 
 
 # Taxi Fare
@@ -34,7 +48,8 @@ def temerature_convertor(fahrenheit_degree):
 # as its only result rounded by 2 digits. Write a program that demonstrates the function.
 
 def taxi_fare(distance):
-    pass
+    return round(distance * 1000 / 140 * 0.25 + 4, 2)
 
+print(taxi_fare(10))
 # examples of usage:
 # taxi_fare(10) #21.86
