@@ -17,7 +17,7 @@ def division(num_1, num_2):
     return num_1 / num_2
 
 
-print(division(100, 5))
+print(division(100, 10))
 
 
 # Function gets random number. If this number is more than ten, return the difference between 100 and this number,
@@ -39,7 +39,7 @@ print(function_1(5))
 def temerature_convertor(fahrenheit_degree):
     return (fahrenheit_degree - 32) * 5 / 9
 
-print(temerature_convertor(55))
+print(temerature_convertor(75))
 
 
 # Taxi Fare
@@ -49,6 +49,7 @@ print(temerature_convertor(55))
 
 def taxi_fare(distance):
     return round(distance * 1000 / 140 * 0.25 + 4, 2)
+print(taxi_fare(25))
 
 print(taxi_fare(10))
 # examples of usage:
